@@ -1,0 +1,724 @@
+{
+  "checksum": "b53ff3304cd12814e10cdfc46e61df8d",
+  "roots": {
+    "bookmark_bar": {
+      "children": [
+        {
+          "date_added": "13165076489305864",
+          "id": "8",
+          "name": "Frontend developer từ chưa biết gì tới chuyên gia (phần 1)",
+          "sync_transaction_version": "84",
+          "type": "url",
+          "url": "https://techmaster.vn/posts/34169/frontend-developer-tu-chua-biet-gi-toi-chuyen-gia-phan-1"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13151665526419378",
+              "id": "68",
+              "name": "医薬品業界納入No.1ステンレス容器・特注製作の日東金属工業株式会社",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "http://www.nitto-kinzoku.co.jp/"
+            }
+          ],
+          "date_added": "13169981808899418",
+          "date_modified": "13169981808899418",
+          "id": "9",
+          "name": "nitto",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13151672559729660",
+              "id": "64",
+              "name": "Atmarkcafe's Blog",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://blog.pgcafe.asia/posts"
+            },
+            {
+              "date_added": "13152164438977535",
+              "id": "65",
+              "name": "ファイル宅配サービス",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "http://acvdev.com/emoodle/local/delivery/"
+            },
+            {
+              "date_added": "13152708644222699",
+              "id": "66",
+              "name": "Phabricator",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://phab.acvdev.com/"
+            },
+            {
+              "date_added": "13153397474658676",
+              "id": "67",
+              "meta_info": {
+                "last_visited_desktop": "13172918751005777"
+              },
+              "name": "- Revision 25518: /",
+              "sync_transaction_version": "109",
+              "type": "url",
+              "url": "http://svn.acvdev.com/"
+            },
+            {
+              "date_added": "13171709964741862",
+              "id": "86",
+              "meta_info": {
+                "last_visited_desktop": "13172918052718090"
+              },
+              "name": "2018 ACV Seminar Schedule - Google Trang tính",
+              "sync_transaction_version": "109",
+              "type": "url",
+              "url": "https://docs.google.com/spreadsheets/d/1c7baRaOyTEaWTpIMMEIJikpVaWa8ZOJns9N17I46xU0/edit#gid=325788168"
+            }
+          ],
+          "date_added": "13169981808899586",
+          "date_modified": "13173004269432499",
+          "id": "10",
+          "name": "acv",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13152170814003188",
+              "id": "58",
+              "name": "PHP Coding Standards – Make WordPress Core",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/"
+            },
+            {
+              "date_added": "13152190196834139",
+              "id": "59",
+              "name": "The WordPress Template Hierarchy - a visualization resource",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://wphierarchy.com/"
+            },
+            {
+              "date_added": "13161430387963811",
+              "id": "60",
+              "name": "Dates and Times In WordPress",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://www.lockedowndesign.com/dates-and-times-in-wordpress/"
+            },
+            {
+              "date_added": "13161840141539300",
+              "id": "61",
+              "name": "WooCommerce 3.0.x Code Reference",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://docs.woocommerce.com/wc-apidocs/index.html"
+            },
+            {
+              "date_added": "13161844129713024",
+              "id": "62",
+              "name": "hookr.io | The WordPress Hook/API Index",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://hookr.io/"
+            },
+            {
+              "date_added": "13162060987913904",
+              "id": "63",
+              "name": "Tất cả các tham số trong WP_Query",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://gist.github.com/thachpham92/d57b18cf02e3550acdb5"
+            }
+          ],
+          "date_added": "13169981808899763",
+          "date_modified": "13171642558673968",
+          "id": "11",
+          "name": "wordpress ",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13160119310106783",
+              "id": "51",
+              "name": "10 phím tắt trên Excel cực kỳ hữu dụng - ICTNEWS",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "http://ictnews.vn/the-gioi-so/thu-thuat/10-phim-tat-tren-excel-cuc-ky-huu-dung-124935.ict"
+            },
+            {
+              "date_added": "13161092471957669",
+              "id": "52",
+              "name": "Tải Photoshop CS6 full crack và hướng dẫn cài đặt thành công 100%",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://tutoilam.com/tai-photoshop-cs6-full-crack-va-huong-dan-cai-dat-thanh-cong-100/"
+            },
+            {
+              "date_added": "13164778937757198",
+              "id": "53",
+              "name": "Sự “bá đạo” của Chrome Developer Tools – Phần 2 | Từ coder đến developer – Tôi đi code dạo",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://toidicodedao.com/2015/10/13/su-ba-dao-cua-chrome-developer-tools-phan-2/"
+            },
+            {
+              "date_added": "13165472141709477",
+              "id": "54",
+              "name": "contact – wordpress",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://eccube.test/contact/"
+            },
+            {
+              "date_added": "13165917787120074",
+              "id": "55",
+              "name": "Products – wordpress",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://192.168.3.123/shop/"
+            },
+            {
+              "date_added": "13167110609062173",
+              "id": "56",
+              "name": "view-source:wordpress.local:7777/wp-admin/admin.php?page=hoanganh-mp-st-tabs",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "view-source:http://wordpress.local:7777/wp-admin/admin.php?page=hoanganh-mp-st-tabs"
+            },
+            {
+              "date_added": "13167481712587844",
+              "id": "57",
+              "name": "Series SOLID – Những dòng code vui",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://nhungdongcodevui.com/category/tro-thanh-developer/series-solid/"
+            }
+          ],
+          "date_added": "13169981808899934",
+          "date_modified": "13171642558673972",
+          "id": "12",
+          "name": "tips",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13157694626890313",
+              "id": "44",
+              "name": "mysql - Moodle SQL query to retrieve all users enrolled to a course in the past 90 days - Stack Overflow",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "https://stackoverflow.com/questions/31395126/moodle-sql-query-to-retrieve-all-users-enrolled-to-a-course-in-the-past-90-days"
+            },
+            {
+              "date_added": "13157696217125356",
+              "id": "45",
+              "name": "Moodle in English: Check if user is enrolled in specific course",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://moodle.org/mod/forum/discuss.php?d=272022"
+            },
+            {
+              "date_added": "13157696219885613",
+              "id": "46",
+              "name": "Check if user is enrolled in specific Moodle course - Stack Overflow",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "https://stackoverflow.com/questions/8391529/check-if-user-is-enrolled-in-specific-moodle-course"
+            },
+            {
+              "date_added": "13157776851518533",
+              "id": "47",
+              "name": "Admin - MindMeister Mind Map",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "https://www.mindmeister.com/1007706025?new=1"
+            },
+            {
+              "date_added": "13159532501244384",
+              "id": "48",
+              "name": "Want to learn Moodle Development? Check out this new Tutorial prepared by Moodle experts #Moodledev - Moodle World",
+              "sync_transaction_version": "1",
+              "type": "url",
+              "url": "https://www.moodleworld.com/wnat-to-learn-moodle-development-check-out-this-new-tutorial-prepared-by-moodle-experts-moodledev/"
+            },
+            {
+              "date_added": "13155989414977265",
+              "id": "49",
+              "name": "Course: Test emon",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://192.168.2.5:5561/course/view.php?id=2"
+            }
+          ],
+          "date_added": "13169981808900085",
+          "date_modified": "13171642558673955",
+          "id": "13",
+          "name": "moodle",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13162448895960378",
+              "id": "41",
+              "name": "テーマの管理 ‹ Alexia Stam — WordPress",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://www.eccube-wp.pgcafe.asia/wp-admin/themes.php"
+            },
+            {
+              "date_added": "13162723592596769",
+              "id": "42",
+              "name": "ALEXIA_web_0129 - Google Drive",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://drive.google.com/drive/folders/1o2OWzYpOH2xdbBxYSUr9hIrlk2uAjD8J"
+            },
+            {
+              "date_added": "13164192237081941",
+              "id": "43",
+              "name": "AlexiaStam - Google Drive",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://drive.google.com/drive/u/0/folders/1F6MoHIJxA7X1ipJatv7s2i26ZwuLZ6bD"
+            }
+          ],
+          "date_added": "13169981808900229",
+          "date_modified": "13171642558673954",
+          "id": "14",
+          "name": "alexiastam",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "date_added": "13157802509148161",
+                  "id": "34",
+                  "name": "Emoticons Smiley Face Symbols",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.alt-codes.net/smiley_alt_codes.php"
+                },
+                {
+                  "date_added": "13157802707233894",
+                  "id": "35",
+                  "name": "Special Characters in HTML",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.degraeve.com/reference/specialcharacters.php"
+                },
+                {
+                  "date_added": "13157803920582811",
+                  "id": "36",
+                  "name": "Create a New Pen",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://codepen.io/pen/"
+                },
+                {
+                  "date_added": "13157805114556654",
+                  "id": "37",
+                  "name": "Pearsonified’s Golden Ratio Typography Calculator",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://pearsonified.com/typography/"
+                },
+                {
+                  "date_added": "13159961381164185",
+                  "id": "38",
+                  "name": "HTML5 Archives - I'm Programmer",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "http://www.improgrammer.net/tutorials/html5/"
+                }
+              ],
+              "date_added": "13169981808901639",
+              "date_modified": "13171642558673964",
+              "id": "23",
+              "name": "html tips",
+              "sync_transaction_version": "63",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13167201774094126",
+                  "id": "39",
+                  "name": "The Shapes of CSS",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://css-tricks.com/examples/ShapesOfCSS/"
+                },
+                {
+                  "date_added": "13167394450380805",
+                  "id": "40",
+                  "name": "flex - CSS | MDN",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://developer.mozilla.org/vi/docs/Web/CSS/flex"
+                }
+              ],
+              "date_added": "13169981808901634",
+              "date_modified": "13171642558672996",
+              "id": "22",
+              "name": "css tips",
+              "sync_transaction_version": "1",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13159611903347679",
+                  "id": "30",
+                  "name": "JavaScript Data Types",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://www.w3schools.com/js/js_datatypes.asp"
+                },
+                {
+                  "date_added": "13160113259607340",
+                  "id": "31",
+                  "name": "Javascript Char Codes (Key Codes) - Cambia Research",
+                  "sync_transaction_version": "1",
+                  "type": "url",
+                  "url": "https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes"
+                },
+                {
+                  "date_added": "13171993640509958",
+                  "id": "94",
+                  "meta_info": {
+                    "last_visited_desktop": "13172031157206134"
+                  },
+                  "name": "Auto Load Content on Page Scroll - demo",
+                  "sync_transaction_version": "102",
+                  "type": "url",
+                  "url": "https://www.sanwebe.com/assets/ajax-load-on-scroll/"
+                }
+              ],
+              "date_added": "13169981808901643",
+              "date_modified": "13171993652901600",
+              "id": "24",
+              "name": "javascript",
+              "sync_transaction_version": "1",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13167387347494844",
+                  "id": "26",
+                  "name": "Merivale - Restaurants, Bars, Wedding Venues, Corporate Venues - Sydney",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://www.merivale.com.au/"
+                },
+                {
+                  "date_added": "13167139658087596",
+                  "id": "15",
+                  "name": "How to Use BEM Methodology | Toptal",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://www.toptal.com/css/introduction-to-bem-methodology"
+                }
+              ],
+              "date_added": "13169981808901648",
+              "date_modified": "13171642558673057",
+              "id": "25",
+              "name": "bem website",
+              "sync_transaction_version": "1",
+              "type": "folder"
+            },
+            {
+              "date_added": "13170345156698220",
+              "id": "74",
+              "name": "Projects | Thomas Park",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://thomaspark.co/projects/"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13170600845286558",
+                  "id": "80",
+                  "name": "Gulp for beginners",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://techmaster.vn/posts/34204/gulp-cho-nguoi-moi-bat-dau"
+                }
+              ],
+              "date_added": "13170600869126412",
+              "date_modified": "13170600869126627",
+              "id": "81",
+              "name": "taskrunner",
+              "sync_transaction_version": "33",
+              "type": "folder"
+            }
+          ],
+          "date_added": "13169981808900721",
+          "date_modified": "13171642558673970",
+          "id": "16",
+          "name": "front-end",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "date_added": "13169731014974142",
+              "id": "19",
+              "name": "16.04 - Cannot reinstall mysql-server after its purge - Ask Ubuntu",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://askubuntu.com/questions/763534/cannot-reinstall-mysql-server-after-its-purge"
+            },
+            {
+              "date_added": "13169902073118834",
+              "id": "20",
+              "meta_info": {
+                "last_visited_desktop": "13171975868326220"
+              },
+              "name": "Bài 9: Quản lý và cài đặt phần mềm cho Ubuntu 16.04 LTS - Echip",
+              "sync_transaction_version": "91",
+              "type": "url",
+              "url": "http://echip.pro/2016/12/17/bai-9-quan-ly-va-cai-dat-phan-mem-cho-ubuntu-16-04-lts/"
+            },
+            {
+              "date_added": "13169903411230115",
+              "id": "21",
+              "meta_info": {
+                "last_visited_desktop": "13171975879694569"
+              },
+              "name": "How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 18.04 | DigitalOcean",
+              "sync_transaction_version": "91",
+              "type": "url",
+              "url": "https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04"
+            },
+            {
+              "date_added": "13169982303214718",
+              "id": "69",
+              "name": "How To Extract & Install tar.gz Files In Ubuntu",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "http://sourcedigit.com/20839-extract-install-tar-gz-files-ubuntu/"
+            },
+            {
+              "date_added": "13170239594534096",
+              "id": "72",
+              "meta_info": {
+                "last_visited_desktop": "13171539976110324"
+              },
+              "name": "How to increase mouse wheel speed in ubuntu 16.04 - YouTube",
+              "sync_transaction_version": "84",
+              "type": "url",
+              "url": "https://www.youtube.com/watch?v=jCdu8enga-I"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13170499188975781",
+                  "id": "77",
+                  "name": "Docker: Chưa biết gì đến biết dùng (Phần 1) - Viblo",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://viblo.asia/p/docker-chua-biet-gi-den-biet-dung-phan-1-ByEZkWrEZQ0"
+                }
+              ],
+              "date_added": "13170625211922883",
+              "date_modified": "13170625211922883",
+              "id": "75",
+              "name": "docker",
+              "sync_transaction_version": "20",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13170509919866058",
+                  "id": "78",
+                  "meta_info": {
+                    "last_visited_desktop": "13171975385777096"
+                  },
+                  "name": "16.04 - Clock shows wrong time after switching from Ubuntu to Windows 10 - Ask Ubuntu",
+                  "sync_transaction_version": "91",
+                  "type": "url",
+                  "url": "https://askubuntu.com/questions/800914/clock-shows-wrong-time-after-switching-from-ubuntu-to-windows-10"
+                }
+              ],
+              "date_added": "13170625211922892",
+              "date_modified": "13170625211922892",
+              "id": "76",
+              "name": "bugs",
+              "sync_transaction_version": "20",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13170617244582743",
+                  "id": "84",
+                  "meta_info": {
+                    "last_visited_desktop": "13171541003706674"
+                  },
+                  "name": "Install MongoDB on Ubuntu 18.04 LTS Server – Website for Students",
+                  "sync_transaction_version": "84",
+                  "type": "url",
+                  "url": "https://websiteforstudents.com/install-mongodb-on-ubuntu-18-04-lts-beta-server/"
+                }
+              ],
+              "date_added": "13170617241414057",
+              "date_modified": "13170617251624864",
+              "id": "83",
+              "name": "mongodb",
+              "sync_transaction_version": "44",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13171688291632550",
+                  "id": "89",
+                  "meta_info": {
+                    "last_visited_desktop": "13171688291632789"
+                  },
+                  "name": "vi - How to exit the Vim editor? - Stack Overflow",
+                  "sync_transaction_version": "85",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor"
+                }
+              ],
+              "date_added": "13171804815627923",
+              "date_modified": "13171804815627923",
+              "id": "87",
+              "name": "vim",
+              "sync_transaction_version": "85",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "date_added": "13171689610348662",
+                  "id": "90",
+                  "meta_info": {
+                    "last_visited_desktop": "13171690479740781"
+                  },
+                  "name": "How to install Fonts on Ubuntu 18.04 Bionic Beaver Linux - LinuxConfig.org",
+                  "sync_transaction_version": "91",
+                  "type": "url",
+                  "url": "https://linuxconfig.org/how-to-install-fonts-on-ubuntu-18-04-bionic-beaver-linux"
+                }
+              ],
+              "date_added": "13171804815627940",
+              "date_modified": "13171906062753068",
+              "id": "88",
+              "name": "fonts",
+              "sync_transaction_version": "85",
+              "type": "folder"
+            },
+            {
+              "date_added": "13171906062753068",
+              "id": "92",
+              "meta_info": {
+                "last_visited_desktop": "13171978598876833"
+              },
+              "name": "Installing Fish Shell on Ubuntu - Vultr.com",
+              "sync_transaction_version": "91",
+              "type": "url",
+              "url": "https://www.vultr.com/docs/installing-fish-shell-on-ubuntu"
+            }
+          ],
+          "date_added": "13169981808901215",
+          "date_modified": "13171993640509958",
+          "id": "18",
+          "name": "linux",
+          "sync_transaction_version": "1",
+          "type": "folder"
+        },
+        {
+          "date_added": "13161537281399530",
+          "id": "17",
+          "meta_info": {
+            "last_visited_desktop": "13172322638798323"
+          },
+          "name": "Google Dịch",
+          "sync_transaction_version": "104",
+          "type": "url",
+          "url": "https://translate.google.com/?hl=vi"
+        },
+        {
+          "date_added": "13172728262428991",
+          "id": "96",
+          "meta_info": {
+            "last_visited_desktop": "13172728262430178"
+          },
+          "name": "Hà Nội - Google Maps",
+          "sync_transaction_version": "108",
+          "type": "url",
+          "url": "https://www.google.com/maps/place/H%C3%A0+N%E1%BB%99i,+Ho%C3%A0n+Ki%E1%BA%BFm,+H%C3%A0+N%E1%BB%99i/@21.022736,105.8019441,13z/data=!3m1!4b1!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598"
+        }
+      ],
+      "date_added": "13169981683650623",
+      "date_modified": "13172728262428991",
+      "id": "1",
+      "name": "Bookmarks bar",
+      "type": "folder"
+    },
+    "other": {
+      "children": [
+        {
+          "date_added": "13076263734866390",
+          "id": "5",
+          "name": "http://112.137.129.104/tracuu/giaybaothi.php",
+          "sync_transaction_version": "1",
+          "type": "url",
+          "url": "http://112.137.129.104/tracuu/giaybaothi.php"
+        },
+        {
+          "date_added": "13119040889069032",
+          "id": "6",
+          "name": "Welcome to Dell  Dell",
+          "sync_transaction_version": "1",
+          "type": "url",
+          "url": "http://www.dell.com/content/topics/global.aspx/selector/world?c=us&l=en&s=gen"
+        },
+        {
+          "date_added": "13128772353554316",
+          "id": "7",
+          "name": "Báo Dân trí | Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h",
+          "sync_transaction_version": "84",
+          "type": "url",
+          "url": "http://dantri.com.vn/"
+        }
+      ],
+      "date_added": "13169981683650627",
+      "date_modified": "13171993645899243",
+      "id": "2",
+      "name": "Other bookmarks",
+      "type": "folder"
+    },
+    "sync_transaction_version": "109",
+    "synced": {
+      "children": [],
+      "date_added": "13169981683650628",
+      "date_modified": "0",
+      "id": "3",
+      "name": "Mobile bookmarks",
+      "type": "folder"
+    }
+  },
+  "version": 1
+}

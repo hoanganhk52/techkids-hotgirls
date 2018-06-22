@@ -39,6 +39,19 @@ const deleteImage = (imageId) => new Promise((resolve, reject) => {
 		.catch(e => reject(e));
 });
 
-module.exports = {listImages, listImagesByPage, createImage, updateImage, deleteImage};
+const updateLike = (imageId, vote) => new Promise((resolve, reject) => {
+	ImageModel
+		.findById(imageId)
+		.then(imageFound => {
+			if (vote === 'like') imageFound.like +=1;
+			else imageFound.like -= 1;
 
-//Todo comment view like
+			return imageFound.save();
+		})
+		.then(imageUpdated => resolve(imageUpdated._id))
+		.catch(e => reject(e));
+});
+
+module.exports = {listImages, listImagesByPage, createImage, updateImage, deleteImage, updateLike};
+
+//Todo comment view

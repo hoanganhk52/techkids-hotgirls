@@ -14,4 +14,13 @@ Router.post('/', (req, res) => {
 		.catch((err) => res.status(500).send({success: 0, err}));
 });
 
+Router.put('/:id/:vote', (req, res) => {
+	let imageId = req.params.id;
+	let vote = req.params.vote;
+
+	ImageController.updateLike(imageId, vote)
+		.then(imageId => res.status(200).send({success: 1, imageId}))
+		.catch(err => res.status(500).send({success: 0, err}));
+});
+
 module.exports = Router;

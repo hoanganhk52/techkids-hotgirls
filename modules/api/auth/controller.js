@@ -33,6 +33,4 @@ const login = ({username, password}) => new Promise((resolve, reject) => {
 		}))
 });
 
-const logout = () => req.session.destroy();
-
-module.exports = {login, logout};
+module.exports = {login};

@@ -1,32 +1,43 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
 
-const UserModel = new Schema({
-	username: {type: String, required: true, unique: true},
-	password: {type: String, required: true},
-	name: {type: String, default: ''},
-	email: {type: String, unique: true},
-	avatar: {type: String, default: ''},
-	active: {type: Boolean, default: true},
+const userModel = new Schema(
+  {
+    username: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      validate: {
+        validator: function(value) {
+          const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+          return regex.test(value);
+        },
+        message: "{VALUE} is not a valid email address!"
+      }
+    },
+    avatar: { type: Buffer },
+    contentType: { type: String },
+    active: { type: Boolean, default: true }
+  },
+  { timestamps: { createdAt: "createdAt" } }
+);
+
+userModel.pre("save", function(next) {
+  if (!this.isModified("password")) {
+    return next();
+  }
+
+  bcrypt
+    .genSalt(12)
+    .then(salt => bcrypt.hash(this.password, salt))
+    .then(hash => {
+      this.password = hash;
+      next();
+    })
+    .catch(err => next(err));
 });
 
-UserModel.pre('save', function (next) {
-	console.log(this);
-	console.log(this.passwordChange);
-
-	if (this.passwordChange || !this.__v) {
-		const saltRounds = 10;
-		const myPlaintextPassword = this.passwordChange || this.password;
-
-		bcrypt.genSalt(saltRounds)
-			.then(salt => bcrypt.hash(myPlaintextPassword, salt))
-			.then(password => {
-				this.password = password;
-				next();
-			})
-			.catch(e => {console.log(e);})
-	} else next();
-});
-
-module.exports = mongoose.model('User', UserModel);
+module.exports = mongoose.model("users", userModel);

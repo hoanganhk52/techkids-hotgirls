@@ -1,36 +1,45 @@
-const UserModel = require('../users/model');
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
+const userController = require("../users/controller");
 
-const login = ({username, password}) => new Promise((resolve, reject) => {
-	UserModel.findOne({username})
-		.then(userFound => {
-			if (!userFound || !userFound.password) {
-				reject({
-					statusCode: 400,
-					err: "Wrong username"
-				});
-			} else {
-				bcrypt.compare(password, userFound.password)
-					.then(compareResult => {
-							if (compareResult) {
-								resolve({
-									username: userFound.username,
-									userId: userFound._id
-								});
-							} else {
-								reject({
-									statusCode: 401,
-									err: "Wrong password"
-								})
-							}
-						}
-					);
-			}
-		})
-		.catch(err => reject({
-			statusCode: 500,
-			err
-		}))
-});
+const login = ({ username, password }) =>
+  new Promise((resolve, reject) => {
+    userController
+      .getUserForAuth(username)
+      .then(user => {
+        if (!user || !user.password) {
+          reject({
+            status: 400,
+            err: "Incorrect username"
+          });
+        } else {
+          bcrypt
+            .compare(password, user.password)
+            .then(result => {
+              if (result) {
+                resolve({ username: user.username, id: user._id });
+              } else {
+                reject({
+                  status: 400,
+                  err: "Incorrect password"
+                });
+              }
+            })
+            .catch(err =>
+              reject({
+                status: 501,
+                err: err
+              })
+            );
+        }
+      })
+      .catch(err =>
+        reject({
+          status: 501,
+          err: err
+        })
+      );
+  });
 
-module.exports = {login};
+module.exports = {
+  login
+};

@@ -1,26 +1,21 @@
-const express = require('express');
-const Router = express.Router();
-const AuthController = require('./controller');
+const express = require("express");
+const router = express.Router();
 
-Router.post('/login', (req, res) => {
-	AuthController.login(req.body).then((userInfo) => {
-		req.session.user = userInfo;
-		res.send({success: 1, user: userInfo})
-	}).catch((e) => {
-		res.status(e.statusCode).send({success:0, err: e.err})
-	});
+const authController = require("./controller");
+
+router.post("/", (req, res) => {
+  authController
+    .login(req.body)
+    .then(userInfo => {
+      req.session.userInfo = userInfo;
+      res.send(userInfo);
+    })
+    .catch(error => res.status(error.status).send(error.err));
 });
 
-Router.post('/logout', (req, res) => {
-	if(req.session.user) {
-		req.session.destroy(err => {
-			if (err) console.log(err);
-			res.redirect('/');
-		});
-	} else {
-		res.status(400).send({success: 0});
-	}
-
+router.delete("/", (req, res) => {
+  req.session.destroy();
+  res.send("Logged out");
 });
 
-module.exports = Router;
+module.exports = router;
